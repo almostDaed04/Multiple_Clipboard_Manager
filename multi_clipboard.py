@@ -39,7 +39,7 @@ def paste_from_slot(slot):
 def register_hotkeys():
     for i in range(5):
         keyboard.add_hotkey(f"ctrl+shift+{i+1}", lambda i=i: paste_from_slot(i))
-    print("✅ Hotkeys ready: ctrl+shift+1 … ctrl+shift+5")
+    print("Hotkeys ready: ctrl+shift+1 … ctrl+shift+5")
 
 # start clipboard monitoring thread
 t1 = threading.Thread(target=clipboard_watcher, daemon=True)
@@ -48,5 +48,5 @@ t1.start()
 # setup hotkeys
 register_hotkeys()
 
-print("🔄 Clipboard Manager running... (Ctrl+C to quit)")
+print("Clipboard Manager running... (Ctrl+C to quit)")
 keyboard.wait()  # keep running
