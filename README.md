@@ -17,8 +17,8 @@ A Python clipboard manager that lets you **store multiple clipboard entries** an
 
 ```bash
 # Clone repo
-git clone https://github.com/almostDaed04/multi-clipboard.git
-cd multi-clipboard
+git clone https://github.com/almostDaed04/Multiple_Clipboard_Manager.git
+cd Multiple_Clipboard_Manager
 
 # Create & activate virtual environment
 python3 -m venv myenv
