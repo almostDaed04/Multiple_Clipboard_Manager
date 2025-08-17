@@ -17,7 +17,7 @@ A Python clipboard manager that lets you **store multiple clipboard entries** an
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/multi-clipboard.git
+git clone https://github.com/almostDaed04/multi-clipboard.git
 cd multi-clipboard
 
 # Create & activate virtual environment
@@ -25,7 +25,8 @@ python3 -m venv myenv
 source myenv/bin/activate
 
 # Install dependencies
-pip install pyperclip keyboard
+pip install pyperclip
+pip install keyboard
 
 # Run the script (Linux users may need sudo for keyboard module)
 sudo python multi_clipboard.py
